@@ -528,3 +528,43 @@ footer {
 .navbar ul li {
     margin: 0 15px;
 }
+
+@media (max-width: 768px) {
+    nav .auth-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav .logo {
+        height: 30px; /* Adjust the height as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    nav .auth-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 8px;
+    }
+
+    nav .logo {
+        height: 25px; /* Adjust the height as needed */
+    }
+}
