@@ -4,25 +4,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/jevlongkss">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/simple_car_rental_icon-removebg-preview.png" alt="Kotsi Ni Jeybbi" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Car Rental System</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ A web-based car rental system that allows users to browse and rent cars online.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/Car-Rental-System)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/dashboard)](https://wakatime.com/@Jeybidoobee)
 
 ---
 
@@ -57,22 +57,28 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+The Car Rental System is a web application that allows users to browse and rent cars online. Users can view available cars, check their availability, and rent them for a specified period.
 
 Guiding Question:
 - What is the project
-- Whats the purpose
+  - The project is a web-based Car Rental System that allows users to browse and rent cars online.
+- What's the purpose
+  - The purpose of the project is to provide a convenient platform for users to view available cars, check their availability, and rent them for a specified period.
 - What are key components
+  - MultiPage Website
+  - Car browsing and rental functionality
+  - User-friendly interface
 - What technology used and how it is used
+  - HTML: Used for structuring the web pages.
+  - CSS: Used for styling the web pages to make them visually appealing.
+  - JavaScript: Used for adding interactivity and dynamic behavior to the web pages.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
+- MultiPage Website
+- Car browsing and rental functionality
+- User-friendly interface
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -92,26 +98,53 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
+AWD-Seatwork-1-1-LJ-25
+└┣ 📂.qodo
+┣ 📂.vscode
+┃ ┗ 📜launch.json
+┣ 📂assets
+┃ ┣ 📂css
+┃ ┃ ┗ 📜style.css
+┃ ┣ 📂img
+┃ ┃ ┣ 📜facebook-circle-logo-24.png
+┃ ┃ ┣ 📜instagram-alt-logo-24.png
+┃ ┃ ┣ 📜krish-parmar-q1bBfWG1G1E-unsplash.jpg
+┃ ┃ ┣ 📜lexus.jpg
+┃ ┃ ┣ 📜nyebe_white.png
+┃ ┃ ┣ 📜sale.webp
+┃ ┃ ┣ 📜simple_car_rental_icon-removebg-preview.png
+┃ ┃ ┣ 📜twitter-logo-24.png
+┃ ┃ ┣ 📜wallpaperflare.com_wallpaper (20).jpg
+┃ ┃ ┣ 📜wallpaperflare.com_wallpaper (21).jpg
+┃ ┃ ┗ 📜wallpaperflare.com_wallpaper (22).jpg
+┃ ┗ 📂js
+┃   ┗ 📜script.js
+┣ 📂pages
+┃ ┣ 📂page1
+┃ ┃ ┣ 📂assets
+┃ ┃ ┃ ┣ 📂css
+┃ ┃ ┃ ┃ ┗ 📜style.css
+┃ ┃ ┃ ┗ 📂js
+┃ ┃ ┃   ┗ 📜scripts.js
+┃ ┃ ┗ 📜index.html
+┃ ┣ 📂page2
+┃ ┃ ┣ 📂assets
+┃ ┃ ┃ ┣ 📂css
+┃ ┃ ┃ ┃ ┗ 📜style.css
+┃ ┃ ┃ ┗ 📂js
+┃ ┃ ┃   ┗ 📜scripts.js
+┃ ┃ ┗ 📜index.html
+┃ ┗ 📂page3
+┃   ┣ 📂assets
+┃   ┃ ┣ 📂css
+┃   ┃ ┃ ┗ 📜style.css
+┃   ┃ ┗ 📂js
+┃   ┃   ┗ 📜scripts.js
+┃   ┗ 📜index.html
+┣ 📜index.html
+┣ 📜LICENSE
+┗ 📜readme.md
+
 ```
 
 ## Resources
@@ -119,4 +152,17 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+## Resources
+
+| Title | Purpose | Link |
+|-|-|-|
+| Bootstrap Documentation | Provides comprehensive documentation on how to use Bootstrap for responsive web design. | [Bootstrap Documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) |
+| MDN Web Docs | Offers detailed documentation and tutorials on HTML, CSS, and JavaScript. | [MDN Web Docs](https://developer.mozilla.org/en-US/) |
+| W3Schools | Provides tutorials and references on web development languages such as HTML, CSS, JavaScript, and more. | [W3Schools](https://www.w3schools.com/) |
+| Stack Overflow | A community-driven question-and-answer site for programming and web development issues. | [Stack Overflow](https://stackoverflow.com/) |
+| Uiverse | A collection of open-source UI components for web development. | [Uiverse](https://uiverse.io/) |
+| Wallpaper Flare | A source for high-quality wallpapers and images. | [Wallpaper Flare](https://www.wallpaperflare.com/) |
+| Google Fonts | A library of free and open-source fonts for web design. | [Google Fonts](https://fonts.google.com/) |
+| Google | A search engine to find car images for the project. | [Google](https://www.google.com/) |
+| Remove Background | A tool to remove backgrounds from images. | [Remove Background](https://www.remove.bg/) |
+| Apple Music | A music streaming service for sound trips while working on the project. | [Apple Music](https://music.apple.com/) |
