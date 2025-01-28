@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental System</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./assets/img/simple_car_rental_icon-removebg-preview.png" alt="Logo" class="logo">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ride">Ride</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+  <section id="home">
+    <div class="container">
+      <h1 class="main-heading"><span class="highlight">Looking</span> to rent a car?</h1>
+      <p class="intro-text">We offer a wide range of vehicles to suit your needs. Browse through our rides and services below.</p>
+      <form id="rental-form">
+        <div>
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" placeholder="Enter location">
+        </div>
+        <div>
+          <label for="pickup-date">Pickup Date:</label>
+          <input type="date" id="pickup-date" name="pickup-date">
+        </div>
+        <div>
+          <label for="return-date">Return Date:</label>
+          <input type="date" id="return-date" name="return-date">
+        </div>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+  <section id="ride">
+    <div class="container">
+      <h1>Available Rides</h1>
+      <div id="car-cards-container" class="car-cards-container">
+        <!-- Dynamic content will be injected here -->
+        <div class="card">
+          <div class="card2">
+          </div>
+        </div>
+      </div>
+      <table>
+        <thead>
+        </thead>
+        <tbody id="car-table">
+          <!-- Dynamic content will be injected here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h1>Our Services</h1>
+      <h1>Affordable and reliable car rental services with flexible plans for any duration.</h1>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/5182310/pexels-photo-5182310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Short-term rentals">
+          <h2>Short-term rentals</h2>
+          <p>Perfect for quick trips and short vacations. Rent a car for a few hours or a couple of days.</p>
+        </div>
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/22/63/cb/2263cb3cac68fa7d4b9505a128487c73.jpg" alt="Long-term rentals">
+          <h2>Long-term rentals</h2>
+          <p>Ideal for extended stays and long-term projects. Enjoy discounted rates for weekly or monthly rentals.</p>
+        </div>
+        <div class="card">
+          <img src="https://www.enterprise.com/en/about/driving-business/_jcr_content/root/container/container/container_346527803/container/teaser.coreimg.jpeg/1690901685195/trend-image.jpeg" alt="Corporate rentals">
+          <h2>Corporate rentals</h2>
+          <p>Business solutions for corporate clients. Flexible rental plans and premium vehicles for your business needs.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/img/sale.webp" alt="Special offers and discounts">
+          <h2>Special offers and discounts</h2>
+          <p>Check out our latest promotions and discounts. Save more on your next car rental with our special deals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Car Rental Services. All rights reserved.</p>
+      <p>Follow us on:
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="./assets/img/facebook-circle-logo-24.png" alt="Facebook" />
+        </a> |
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="./assets/img/twitter-logo-24.png" alt="Twitter" />
+        </a> |
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="./assets/img/instagram-alt-logo-24.png" alt="Instagram" />
+        </a>
+      </p>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
