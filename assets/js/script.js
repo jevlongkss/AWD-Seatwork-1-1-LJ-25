@@ -47,3 +47,4 @@ function borrowCar(carId) {
 }
 
 document.addEventListener('DOMContentLoaded', renderCarCards);
+
